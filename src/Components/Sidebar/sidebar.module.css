@@ -1,0 +1,131 @@
+.sidebar {
+    /* background-color: red; */
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar_header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo>span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span:nth-child(1) {
+    color: orange;
+}
+
+.logo>p {
+    color: gray;
+    font-size: 13px;
+}
+
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.user_logo img {
+    max-width: 28px;
+    border-radius: 50%;
+}
+
+.userName {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.userEmail {
+    font-size: 10px;
+    color: gray;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: red; */
+}
+
+.menu> p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: gray;
+}
+
+.lists, .menus {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 8px;
+}
+
+.lists>p, .menus>p {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+}
+
+.lists>p:hover, .menus>p:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+.theme {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    gap: 5px;
+    padding: 5px;
+    /* width: 80%; */
+
+}
+
+.light, .dark {
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+
+

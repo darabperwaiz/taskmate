@@ -1,0 +1,22 @@
+.task {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle p {
+    font-size: 22px;
+    width: 90%;
+}
+
+.bottom p {
+    font-size: 12px;
+}

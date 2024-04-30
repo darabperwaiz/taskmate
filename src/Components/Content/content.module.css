@@ -1,0 +1,203 @@
+.container {
+    /* background-color: red; */
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: url(https://onlyhdwallpapers.com/wallpaper/orange-julius-by-digitaljames-3ptj.jpg);
+    min-height: 150px;
+    max-height: 150px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+
+.breadcrumbs {
+    color: white;
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+} 
+
+.breadcrumbs>span:nth-child(1) {
+    color: rgb(229, 229, 229);
+}
+
+.left>p:nth-child(2) {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.head_title>span:nth-child(1) {
+    font-size: 25px;
+}
+
+.date {
+    color: white;
+    font-size: 14px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+.middle_left {
+    display: flex;
+    gap: 10px;
+    /* margin-top: 10px; */
+    padding: 10px;
+}
+
+tr {
+    height: 30px;
+    gap: 15px;
+}
+
+td {
+    padding-right: 50px;
+}
+
+.row1>td:nth-child(2)>span {
+    background-color: #f0f0f0;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+tr>td:nth-child(1) {
+    color: gray;
+}
+
+.row3>td:nth-child(2) {
+    display: flex;
+    gap: 5px;
+}
+
+.row3>td:nth-child(2) span {
+    width: fit-content;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 11px;
+}
+
+.row3>td:nth-child(2) span:nth-child(1) {
+    background-color: #f4e0cb;
+}
+.row3>td:nth-child(2) span:nth-child(2) {
+    background-color: #f6edcc;
+}
+.row3>td:nth-child(2) span:nth-child(3) {
+    background-color: #cee9f6;
+}
+.row3>td:nth-child(2) span:nth-child(4) {
+    background-color: #d2f7d0;
+}
+
+.row4>td:nth-child(2) {
+    display: flex;
+    gap: 5px;
+}
+
+.row4>td:nth-child(2)>span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    font-size: 11px;
+}
+
+.row4>td:nth-child(2)>span>img {
+    width: 20px;
+}
+
+.task_filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.new_task {
+    background-color: #ec9b4e;
+    border-radius: 10px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-size: 13px;
+}
+
+.new_task>span:nth-child(2) {
+    background-color: rgba(255, 255, 255, 0.286);
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter {
+    display: flex;
+    gap: 5px;
+    height: 20px;
+}
+
+.tasks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+}
+
+.todo, .inProgress, .completed, .overdue {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo>div:nth-child(1), .inProgress>div:nth-child(1), .completed>div:nth-child(1), .overdue>div:nth-child(1), .other>div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.allTask {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .middle {
+        flex-direction: column-reverse;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+

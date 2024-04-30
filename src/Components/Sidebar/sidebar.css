@@ -1,0 +1,15 @@
+.active {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white !important;
+}
+
+.on {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.136);
+}
