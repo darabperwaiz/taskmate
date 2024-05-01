@@ -15,6 +15,7 @@
     background-size: cover;
     padding: 15px;
     position: relative;
+    margin-bottom: 5px;
 }
 
 .navIcon {
@@ -61,6 +62,7 @@
 .middle {
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
 .middle_left {
     display: flex;
@@ -93,6 +95,7 @@ tr>td:nth-child(1) {
 .row3>td:nth-child(2) {
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
 }
 
 .row3>td:nth-child(2) span {
@@ -118,6 +121,7 @@ tr>td:nth-child(1) {
 .row4>td:nth-child(2) {
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
 }
 
 .row4>td:nth-child(2)>span {
@@ -134,11 +138,28 @@ tr>td:nth-child(1) {
     width: 20px;
 }
 
+.search {
+    position: relative;
+    width: max-content;
+}
+
+.searchBar {
+    padding: 5px 35px 5px 10px;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 2px;
+    right: 15px;
+}
+
 .task_filter {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .new_task {

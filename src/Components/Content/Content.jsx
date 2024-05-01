@@ -69,8 +69,9 @@ const Content = ({setShow}) => {
             </tbody>
           </table>
         </div>
-        <div>
-          <input type="text" placeholder="Search task or project" />
+        <div className={style.search}>
+          <input type="text" className={style.searchBar} placeholder="Search task or project" />
+          <p className={style.searchIcon}><i class="fa-solid fa-magnifying-glass"></i></p>
         </div>
       </div>
       <div className={style.task_filter}>
