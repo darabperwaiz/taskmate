@@ -2,10 +2,11 @@ import React from "react";
 import style from "./content.module.css";
 import Task from "../Task/Task";
 
-const Content = () => {
+const Content = ({setShow}) => {
   return (
     <div className={style.container}>
       <div className={style.header}>
+        <p className={style.navIcon} onClick={()=> setShow(true)}><i class="fa-solid fa-bars"></i></p>
         <div className={style.left}>
           <p className={style.breadcrumbs}>
             <span>Projects</span>/ <span>My Projects</span>

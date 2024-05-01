@@ -5,6 +5,25 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    position: relative;
+}
+
+.closeBtn {
+    position: absolute;
+    right: -35px;
+    z-index: 1;
+    font-size: 22px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(21, 21, 21, 0.155);
+    color: red;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
 }
 
 .sidebar_header {
@@ -123,7 +142,17 @@
 
 @media only screen and (max-width: 768px) {
     .sidebar {
-        display: none;
+        position: absolute;
+        background-color: white;
+        z-index: 1;
+        transform: translateX(-300px);
+        height: 100vh;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .show {
+        transform: translateX(0);
+        height: 100vh;
     }
 }
 

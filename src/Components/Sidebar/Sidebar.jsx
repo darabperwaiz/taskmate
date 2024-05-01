@@ -2,17 +2,19 @@ import React, { useState } from "react";
 import style from "./sidebar.module.css";
 import './sidebar.css'
 
-const Sidebar = () => {
+const Sidebar = ({show, setShow}) => {
 
-    const [isLight, setIsLight] = useState(false);
+    const [isLight, setIsLight] = useState(true);
     const handleLight = ()=> {
         setIsLight(true)
     }
     const handlDark = () =>{
         setIsLight(false)
     }
+    console.log("from sidebar", show)
   return (
-    <div className={style.sidebar}>
+    <div className={`${style.sidebar} ${show==true ? `${style.show}` : ''}`}>
+      <p className={style.closeBtn} onClick={()=> setShow(false)}><i class="fa-solid fa-circle-xmark"></i></p>
       <div className={style.sidebar_header}>
         <div className={style.logo}>
           <span>Task</span>
