@@ -1,11 +1,11 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2024-04-30 164253](https://github.com/darabperwaiz/taskmate/assets/96805782/9d688785-c67a-4b11-864a-ab9b2862aa89)
 
-## Available Scripts
 
-In the project directory, you can run:
+# Clone
+First you have to clone the app
 
+In your Terminal Type npm start to run the app
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -14,10 +14,10 @@ Open [http://localhost:3000/dashboard](http://localhost:3000/dashboard) to view 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm run build`
 
